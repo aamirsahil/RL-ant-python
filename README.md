@@ -374,14 +374,3 @@ internal_external_multi.run()
            │
            └── record simulation data
 ```
-
-## Notes
-
-The repository is currently experimental research code rather than a packaged Python application. In particular:
-
-* There is no `requirements.txt` or `pyproject.toml` in the current repository.
-* `food.txt` is referenced as the default map but is not among the files currently shown in the repository tree.
-* `qlearn.py` and `backprop.py` are imported by the simulation but are not currently present in the repository tree.
-* `main.py` contains hard-coded experiment/output paths and parameters.
-
-Consequently, `python main.py` is the intended command, but the repository in its current state may require the missing project files and data files to be restored before it runs successfully.
